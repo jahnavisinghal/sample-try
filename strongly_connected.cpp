@@ -75,6 +75,7 @@ int number_of_strongly_connected_components(vector<vector<int> > adj) {
         dfs_2(adj, used_rev, order[i]);
         result++;
     }
+    std::cout << "Just for the sake of editing";
   }
   return result;
 }
